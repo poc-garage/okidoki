@@ -44,7 +44,20 @@ The purpose of this process is to standardize the creation, review, approval and
 
 # Process steps – most important steps
 
-...
+| No.        | Role                | Activity               |Description |
+|------------|---------------------|------------------------|------------|
+| 1.         | Software Developer  | Complete checklist |Depending of the documentation type and delivered checklist content the Software Developer provides most important information about functionality. He covers aspects like description, launching, aim of the functionality. The checklist with answers will be delivered to the Editor.  |
+| 2.         | Editor              | Create document        |The Editor creates documentation content and files using document patterns and documentation development guides|
+| 3.         | Reviewer            | Review document        |Based on the review and acceptance criteria for particular document type the Reviewer checks if the delivered document version meets all the quality criteria.  |
+
+RACI Matrix
+
+| Task               | Software Developer | Editor | Reviewer |Product Owner|
+|--------------------|--------------------|--------|----------|-------------|
+| Complete checklist |R  |I  |I  |I |
+| Create document    |C  |R  |C  |I |
+| Review document    |C,I|C,I|R,A|A,I|
+R - responsible, A - accountable, C - consulted, I - informed
 
 # Control points (KPI) - examples
 
@@ -56,8 +69,15 @@ The purpose of this process is to standardize the creation, review, approval and
 
 # Supporting tools
 
-[Camunda Modeler]([https://adres-strony.com](https://camunda.com/download/modeler/))
+[Camunda Modeler](https://camunda.com/download/modeler/)
 
+[Markdown](https://www.markdownguide.org/)
+
+[BPMN](https://www.bpmn.org/)
+
+[Markdown plugins for an IDE, i.e.](https://code.visualstudio.com/docs/languages/markdown)
+
+[DocuWriter.ai](https://www.docuwriter.ai/)
 
 # License 
 
@@ -65,7 +85,3 @@ The Test and Documentation Driven Development process is released under the GNU 
 
 __Copyright (C)  2025 okidoki process description__
 Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation;
-
-
-
-
