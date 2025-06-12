@@ -44,6 +44,8 @@ The purpose of this process is to standardize the creation, review, approval and
 
 # Process steps – most important steps
 
+[![TDDD Process](okidoki-process-mini.png)](okidoki-process.png)
+
 | No.        | Role                | Activity               |Description |
 |------------|---------------------|------------------------|------------|
 | 1.         | Software Developer  | Complete checklist |Depending of the documentation type and delivered checklist content the Software Developer provides most important information about functionality. He covers aspects like description, launching, aim of the functionality. The checklist with answers will be delivered to the Editor.  |
